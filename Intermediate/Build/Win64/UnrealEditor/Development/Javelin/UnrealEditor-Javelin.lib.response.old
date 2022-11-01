@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Javelin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\JavelinEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Javelin.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\JavelinGameModeBase.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Missile.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\PlayerPawn.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Target.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Javelin.init.gen.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\JavelinGameModeBase.gen.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Missile.gen.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\PlayerPawn.gen.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Target.gen.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Default.rc2.res"
+/OUT:"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\UnrealEditor-Javelin.lib"

@@ -1,0 +1,79 @@
+/MANIFEST:EMBED
+/MANIFESTINPUT:"..\Build\Windows\Resources\Default-Win64.manifest"
+/NOLOGO
+/DEBUG:FULL
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:12000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/DELAYLOAD:"DBGHELP.DLL"
+/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.31.31103\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x64"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+/FUNCTIONPADMIN
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\JavelinEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Javelin.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\JavelinGameModeBase.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Missile.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\PlayerPawn.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Target.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Javelin.init.gen.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\JavelinGameModeBase.gen.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Missile.gen.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\PlayerPawn.gen.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Target.gen.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\Default.rc2.res"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+/OUT:"C:\Users\petro\Documents\Unreal Projects\Javelin\Binaries\Win64\UnrealEditor-Javelin.dll"
+/IMPLIB:"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\UnrealEditor\Development\Javelin\UnrealEditor-Javelin.suppressed.lib"
+/PDB:"C:\Users\petro\Documents\Unreal Projects\Javelin\Binaries\Win64\UnrealEditor-Javelin.pdb"
+/ignore:4078

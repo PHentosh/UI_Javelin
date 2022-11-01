@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\petro\\documents\\unreal projects\\javelin\\intermediate\\build\\win64\\unrealeditor\\inc\\javelin\\javelin.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\petro\\documents\\unreal projects\\javelin\\intermediate\\build\\win64\\javelineditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\petro\\documents\\unreal projects\\javelin\\intermediate\\build\\win64\\unrealeditor\\development\\javelin\\definitions.javelin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

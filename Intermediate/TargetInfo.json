@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Javelin",
+			"Path": "C:\\Users\\petro\\Documents\\Unreal Projects\\Javelin\\Source\\Javelin.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "JavelinEditor",
+			"Path": "C:\\Users\\petro\\Documents\\Unreal Projects\\Javelin\\Source\\JavelinEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

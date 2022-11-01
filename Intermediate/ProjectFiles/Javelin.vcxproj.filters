@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Javelin.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Javelin.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\JavelinEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\Javelin">
+      <UniqueIdentifier>{77443DBA-E836-3D03-B5BF-A63A671670BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Javelin\Javelin.Build.cs">
+      <Filter>Source\Javelin</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Javelin\Javelin.cpp">
+      <Filter>Source\Javelin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Javelin\Javelin.h">
+      <Filter>Source\Javelin</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Javelin\JavelinGameModeBase.cpp">
+      <Filter>Source\Javelin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Javelin\JavelinGameModeBase.h">
+      <Filter>Source\Javelin</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Javelin\Missile.cpp">
+      <Filter>Source\Javelin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Javelin\Missile.h">
+      <Filter>Source\Javelin</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Javelin\MyGameModeBase.cpp">
+      <Filter>Source\Javelin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Javelin\MyGameModeBase.h">
+      <Filter>Source\Javelin</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Javelin\PlayerPawn.cpp">
+      <Filter>Source\Javelin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Javelin\PlayerPawn.h">
+      <Filter>Source\Javelin</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Javelin\Target.cpp">
+      <Filter>Source\Javelin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Javelin\Target.h">
+      <Filter>Source\Javelin</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
