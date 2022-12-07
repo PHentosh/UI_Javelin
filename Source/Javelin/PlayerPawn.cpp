@@ -3,6 +3,10 @@
 
 #include "PlayerPawn.h"
 
+
+//namespace ba = boost::asio;
+#define BUFSIZE 256
+
 // Sets default values
 APlayerPawn::APlayerPawn()
 {
@@ -14,6 +18,7 @@ APlayerPawn::APlayerPawn()
 	RootComponent = PlayerMesh;
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("PlayerCamera"));
 	Camera->SetupAttachment(PlayerMesh);
+
 }
 
 // Called when the game starts or when spawned
@@ -40,6 +45,9 @@ void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 }
 
+
+
+
 void APlayerPawn::MoveUD(float Value)
 {
 	auto Rotarion = GetActorRotation();
@@ -54,3 +62,55 @@ void APlayerPawn::MoveLR(float Value)
 	SetActorRotation(Rotarion);
 }
 
+void APlayerPawn::MoveUD_ADD(float Value)
+{
+	auto Rotarion = GetActorRotation();
+	Rotarion.Pitch = Value;
+	SetActorRotation(Rotarion);
+}
+
+void APlayerPawn::MoveLR_ADD(float Value)
+{
+	auto Rotarion = GetActorRotation();
+	Rotarion.Yaw = Value;
+	SetActorRotation(Rotarion);
+}
+
+FUART_INPUT APlayerPawn::Process_Line(FString Value)
+{
+	FUART_INPUT inp;
+	int pointer = 0;
+	for (int i = Value.Len(); i > 0; i--) {
+		if (Value[i] == ' ') {
+			//inp.Pitch = Value.
+		}
+	}
+
+	return inp;
+}
+
+
+
+//void APlayerPawn::Open_UART()
+//{
+//
+//
+//	//return &serial;
+//}
+//
+//void APlayerPawn::Read_UART()
+//{
+//	ba::io_service io;
+//	// Open serial port
+//	ba::serial_port serial(io, "/dev/ttyACM0");
+//
+//	// Configure basic serial port parameters: 115.2kBaud, 8N1
+//	serial.set_option(ba::serial_port_base::baud_rate(115200));
+//	serial.set_option(ba::serial_port_base::character_size(8 /* data bits */));
+//	serial.set_option(ba::serial_port_base::parity(ba::serial_port_base::parity::none));
+//	serial.set_option(ba::serial_port_base::stop_bits(ba::serial_port_base::stop_bits::one));
+//
+//	char buff[BUFSIZE];
+//	size_t n = serial.read_some(ba::buffer(buff, BUFSIZE));
+//	//return buff;
+//}

@@ -1,0 +1,22 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\petro\\documents\\unreal projects\\javelin\\intermediate\\build\\win64\\unrealeditor\\inc\\javelin\\uartcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\petro\\documents\\unreal projects\\javelin\\intermediate\\build\\win64\\javelineditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\petro\\documents\\unreal projects\\javelin\\intermediate\\build\\win64\\unrealeditor\\development\\javelin\\definitions.javelin.h",
+            "c:\\users\\petro\\documents\\unreal projects\\javelin\\source\\javelin\\uartcomponent.h",
+            "c:\\program files (x86)\\microsoft visual studio\\2022\\buildtools\\vc\\tools\\msvc\\14.29.30133\\include\\thread",
+            "c:\\program files (x86)\\microsoft visual studio\\2022\\buildtools\\vc\\tools\\msvc\\14.29.30133\\include\\__msvc_chrono.hpp",
+            "c:\\program files (x86)\\microsoft visual studio\\2022\\buildtools\\vc\\tools\\msvc\\14.29.30133\\include\\ratio",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.18362.0\\ucrt\\process.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.18362.0\\ucrt\\corecrt_startup.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.18362.0\\ucrt\\math.h",
+            "c:\\program files (x86)\\microsoft visual studio\\2022\\buildtools\\vc\\tools\\msvc\\14.29.30133\\include\\vcruntime_startup.h",
+            "c:\\users\\petro\\documents\\unreal projects\\javelin\\intermediate\\build\\win64\\unrealeditor\\inc\\javelin\\uartcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

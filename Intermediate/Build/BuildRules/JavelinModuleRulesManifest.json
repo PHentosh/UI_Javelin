@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"C:\\Users\\petro\\Documents\\Unreal Projects\\Javelin\\Source\\Javelin\\Javelin.Build.cs",
+		"C:\\Users\\petro\\Documents\\Unreal Projects\\Javelin\\Plugins\\SERIALCOM_UE5EA_02\\Source\\SERIALCOM\\SERIALCOM.Build.cs",
 		"C:\\Users\\petro\\Documents\\Unreal Projects\\Javelin\\Source\\Javelin.Target.cs",
 		"C:\\Users\\petro\\Documents\\Unreal Projects\\Javelin\\Source\\JavelinEditor.Target.cs"
 	],

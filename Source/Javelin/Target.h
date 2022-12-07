@@ -2,12 +2,16 @@
 
 #pragma once
 
+
+
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
 #include "GameFramework/DefaultPawn.h"
 #include "Target.generated.h"
+
+
 
 UCLASS()
 class JAVELIN_API ATarget : public AActor
@@ -28,6 +32,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+
 
 private:
 	UPROPERTY(EditAnywhere)

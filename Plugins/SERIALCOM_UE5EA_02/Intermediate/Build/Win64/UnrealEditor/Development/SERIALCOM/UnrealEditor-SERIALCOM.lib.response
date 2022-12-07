@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SERIALCOM.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Intermediate\Build\Win64\JavelinEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Plugins\SERIALCOM_UE5EA_02\Intermediate\Build\Win64\UnrealEditor\Development\SERIALCOM\Module.SERIALCOM.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Plugins\SERIALCOM_UE5EA_02\Intermediate\Build\Win64\UnrealEditor\Development\SERIALCOM\Module.SERIALCOM.gen.cpp.obj"
+"C:\Users\petro\Documents\Unreal Projects\Javelin\Plugins\SERIALCOM_UE5EA_02\Intermediate\Build\Win64\UnrealEditor\Development\SERIALCOM\Default.rc2.res"
+/OUT:"C:\Users\petro\Documents\Unreal Projects\Javelin\Plugins\SERIALCOM_UE5EA_02\Intermediate\Build\Win64\UnrealEditor\Development\SERIALCOM\UnrealEditor-SERIALCOM.lib"

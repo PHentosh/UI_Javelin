@@ -2967,6 +2967,18 @@
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor-Javelin.pdb",
 			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SERIALCOM_UE5EA_02/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SERIALCOM_UE5EA_02/Binaries/Win64/UnrealEditor-SERIALCOM.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SERIALCOM_UE5EA_02/Binaries/Win64/UnrealEditor-SERIALCOM.pdb",
+			"Type": "SymbolFile"
 		}
 	],
 	"RuntimeDependencies": [
@@ -23480,6 +23492,10 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Javelin.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SERIALCOM_UE5EA_02/SERIALCOM.uplugin",
 			"Type": "UFS"
 		}
 	],
